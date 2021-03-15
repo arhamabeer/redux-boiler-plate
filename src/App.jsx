@@ -36,7 +36,7 @@ const mapStateToProps = (state) => ({
 })
 
 
-// THIS USE FOR FUNCTIONS & FOR GLOBAL UPDATING STATE's PROPERTIES
+// THIS USE FOR FUNCTIONS & FOR UPDATING GLOBAL STATE's PROPERTIES
 
 const mapDispatchToProps = (dispatch) => ({
   set_name: (name) => dispatch(set_name(name)),
